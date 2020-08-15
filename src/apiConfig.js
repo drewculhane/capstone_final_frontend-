@@ -10,11 +10,11 @@ const dreamwayApis = {
 //   development: "http://localhost:4000/ideas",
 // };
 
-  // if (window.location.hostname === "localhost") {
-  //    dreamwayApi = dreamwayApis.development;
-  //    } else {
+  if (window.location.hostname === "localhost") {
      dreamwayApi = dreamwayApis.development;
-//  }
+     } else {
+     dreamwayApi = dreamwayApis.development;
+      }
 //can't do default exports when you need to export more than one
 //changed to named exports
 
