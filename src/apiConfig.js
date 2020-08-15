@@ -13,7 +13,7 @@ const dreamwayApis = {
   if (window.location.hostname === "localhost") {
      dreamwayApi = dreamwayApis.development;
      } else {
-     dreamwayApi = dreamwayApis.development;
+     dreamwayApi = dreamwayApis.production;
       }
 //can't do default exports when you need to export more than one
 //changed to named exports
