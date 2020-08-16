@@ -7,11 +7,11 @@
     flex-direction: column; 
     align-content: center; 
 }
-.Forum-feed-cont .card {
+.card {
     max-width: 90vw; 
     max-height: 30vh; 
     font-family: 'Morpheus'
 }
-.Forum-feed-cont .card .feed-avatar {
+.feed-avatar {
  max-width: 50px; 
 }
