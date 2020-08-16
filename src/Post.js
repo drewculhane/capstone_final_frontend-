@@ -174,7 +174,7 @@ function Post(props) {
       }
       return (
       <>
-<div class="card text-white bg-dark mb-3" >
+<div class="comment-card-indent card text-white bg-dark mb-3" >
 <div class="card-header">
 <img className="feed-avatar" src={comment.user_avatar} />
   {timeStampComment}</div>
@@ -194,7 +194,7 @@ function Post(props) {
         <>
         <DashboardLayout/> 
         <div className="Component-styles-container">
-        <h1> Post </h1>
+        <h1 className="For-feed-header"> Post </h1>
        
         <div class="card text-white bg-dark mb-3" >
         <div class="card-header">
@@ -208,6 +208,7 @@ function Post(props) {
          <p class="card-text">{post.content}</p>
         </div>
         </div>
+        <h1 className="For-feed-header"> Comments </h1>
         {commentsArray}
         <div>
         {postCommentForm}
