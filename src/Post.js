@@ -118,9 +118,12 @@ function Post(props) {
                 )
                 if (props.user.id === post.user_id)
                 editLinkPost = (
+                  <>
+                  <p> User Actions: </p>
                   <Link to={"/Forum/Feed/Post/Edit/" + postId} >
                     <button> Edit </button>
                   </Link> 
+                  </>
                 );
                 deletePost = (
                   <DeletePost 
@@ -198,9 +201,12 @@ function Post(props) {
         <div class="card-header">
           <img className="feed-avatar" src={post.user_avatar} alt="avatar image" />
           {post.user_display}
+          <div className="user-actions-ts">
           {editLinkPost}
           {deletePost}
-          {timeStamp} </div>
+          {timeStamp} 
+          </div> 
+          </div>
         <div class="card-body">
         <h5 class="card-title">{post.title}</h5>
          <p class="card-text">{post.content}</p>
