@@ -15,8 +15,9 @@
       1px -1px 0 #1D830C ,
       -1px 1px 0 #1D830C ,
        1px 1px 0 #1D830C;
-    margin-left: 40vw; 
-    margin-right: 40vw; 
+    margin-left: 36vw; 
+    margin-right: 36vw; 
+    min-width: 28vw; 
     margin-top: 5vh; 
     border: solid 2px #1D830C;
 }
