@@ -32,7 +32,13 @@
     font-family: 'Morpheus'
 }
 .link-overide {
-    color: #1D830C;
+    color: #C6E38C !important; 
+    text-shadow:
+     -1px -1px 0 #1D830C ,  
+      1px -1px 0 #1D830C ,
+      -1px 1px 0 #1D830C ,
+       1px 1px 0 #1D830C;
+       font-size: 25px; 
     text-decoration: none; 
 }
 .link-overide:hover {
