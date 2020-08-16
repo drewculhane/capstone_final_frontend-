@@ -21,15 +21,12 @@ function ProfileSettingsEdit(props) {
             [event.target.name]: event.target.value, 
         });
     };
-    const dataInputThree={
-        ...input,
-        avatar: spotlight 
-    }
+
     console.log("input state", dataInputThree)
     const handleSubmit = (event) => {
         const dataInput = input; 
         const dataInputTwo={
-            dataInput, 
+            ...dataInput,
             avatar: spotlight 
         }
         event.preventDefault(); 
