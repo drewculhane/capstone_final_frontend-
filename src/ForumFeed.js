@@ -25,13 +25,13 @@ function ForumFeed(props) {
     <div className="card text-white bg-dark mb-3" >
     <div className="card-header"> 
     <img className="feed-avatar" src={post.user_avatar} />
-    {post.user_display} 
+    <p className="user-feed">{post.user_display}</p> 
     <p className="date-slice">{post.updated_at.slice(0,10)}</p>
     <p>{post.updated_at.slice(11,16)}</p>
     </div>
     <div class="card-body">
     <Link to={"/Forum/Feed/Post/" + post.id} >
-    <h5 class="card-title">{post.title}</h5>
+    <h5 class="post-tile-text card-title">{post.title}</h5>
     </Link> 
     <p class="card-text">{post.content}</p>
     </div>

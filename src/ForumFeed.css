@@ -4,7 +4,6 @@
 .Component-styles-container {
     background-image: url("https://res.cloudinary.com/dgmpgmo60/image/upload/v1597602709/Screen_Shot_2020-08-16_at_2.31.15_PM_axiuxd.png");
     background-repeat: repeat; 
-    background-size: cover; 
 }
 .Feed-cont-posts {
     display: flex; 
@@ -12,10 +11,24 @@
     align-content: center; 
     margin-left: 10vw; 
     margin-right: 10vw; 
+    color: #C6E38C !important; 
+    text-shadow:
+     -1px -1px 0 #1D830C ,  
+      1px -1px 0 #1D830C ,
+      -1px 1px 0 #1D830C ,
+       1px 1px 0 #1D830C;
 }
 .feed-avatar {
  max-width: 50px; 
 }
 .date-slice {
     margin-top: 2vh; 
+}
+.user-feed {
+    margin-left: 3vw; 
+    font-family: 'Morpheus'
+}
+.post-title-text {
+    font-family: 'Morpheus';
+    color: #1D830C; 
 }
