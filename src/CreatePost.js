@@ -81,9 +81,9 @@ function CreatePost(props) {
     return (
         <>
         <DashboardLayout/> 
-        <div className="Component-styles-container cont-margins-cp">
+        <div className="Component-styles-container ">
         <h1 className="For-feed-header"> Create Post </h1>
-        <div class="card text-white bg-dark mb-3" >
+        <div class="card text-white bg-dark mb-3 cont-margins-cp" >
         <div class="card-body">
         {postDataForm}
         </div> 
