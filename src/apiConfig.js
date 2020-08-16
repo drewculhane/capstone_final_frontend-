@@ -1,7 +1,7 @@
 let dreamwayApi;
 
 const dreamwayApis = {
-  production: "https://test-dreamway-1234.herokuapp.com/",
+  production: "http://www.thedreamway.space/",
   development: "http://localhost:3001/",
 };
 
