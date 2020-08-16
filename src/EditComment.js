@@ -61,11 +61,11 @@ function EditComment(props) {
          } else if (props.user && props.user.id == comment.user_id) {
         commentEdit = (
             <>
-            {props.user.avatar.length > 2 ? 
+            {props.user.avatar === null || props.user.avatar.length > 2 ? 
           <img src={props.user.avatar} alt="avatar" /> :
            <img src="https://res.cloudinary.com/dgmpgmo60/image/upload/v1597366961/Screen_Shot_2020-08-13_at_9.02.19_PM_ominua.png" />
         }
-            {props.user.nickname.length > 2 ? 
+            {props.user.nickname === null || props.user.nickname.length > 2 ? 
             <p> {props.user.nickname} </p> :
             <p> Anonymous Druid </p>    
         } 
