@@ -194,9 +194,7 @@ function Post(props) {
         <>
         <DashboardLayout/> 
         <div className="Component-styles-container">
-        <h1 className="For-feed-header"> Post </h1>
-       
-        <div class="card text-white bg-dark mb-3" >
+        <div className="post-spef-widthcont card text-white bg-dark mb-3" >
         <div class="card-header">
           <img className="feed-avatar" src={post.user_avatar} alt="avatar image" />
           {post.user_display}
