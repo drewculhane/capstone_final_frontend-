@@ -19,7 +19,8 @@
        1px 1px 0 #1D830C;
 }
 .feed-avatar {
- max-width: 50px; 
+ max-width: 60px; 
+ margin-right: 4vh; 
 }
 .date-slice {
     margin-top: 2vh; 
