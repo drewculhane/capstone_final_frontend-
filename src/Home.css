@@ -1,3 +1,5 @@
 .Login-Portal {
     margin-top: 25vh; 
+    display: flex; 
+    align-content: center; 
 }

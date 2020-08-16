@@ -30,13 +30,19 @@ export default class Home extends Component {
         <>
         <DashboardLayout/>
         <div className="Login-Portal">
-            <h1> Home </h1>
+        <div class="card text-white bg-dark mb-3" >
+            <div class="card-header">
+                <h1> Portal </h1>
             <h1>Status: {this.props.loggedInStatus} </h1>
             <button onClick={() => this.handleLogoutClick()}> Log out </button>
-            <Registration handleSuccessfulAuth={this.handleSuccessfulAuth} /> 
-            <h4> Login </h4>
-            <Login handleSuccessfulAuth={this.handleSuccessfulAuth} /> 
-        </div>
+            </div>
+                <div class="card-body">
+                <h4> Login </h4>
+                <Login handleSuccessfulAuth={this.handleSuccessfulAuth} /> 
+                <Registration handleSuccessfulAuth={this.handleSuccessfulAuth} /> 
+                </div>
+                </div>  
+                </div>
         </>
     ); 
     }
