@@ -22,8 +22,8 @@ function ForumFeed(props) {
       }, [])
       const postArray = posts.map((post)=> (
           <>
-    <div class="card text-white bg-dark mb-3" >
-    <div class="card-header"> 
+    <div className="card text-white bg-dark mb-3" >
+    <div className="card-header"> 
     <img className="feed-avatar" src={post.user_avatar} />
     {post.user_display} 
     <p>{post.updated_at.slice(0,10)}</p>
