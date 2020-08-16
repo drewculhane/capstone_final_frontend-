@@ -24,7 +24,7 @@ function ForumFeed(props) {
           <>
     <div class="card text-white bg-dark mb-3" >
     <div class="card-header"> 
-    <img src={post.user_avatar} />
+    <img className="feed-avatar" src={post.user_avatar} />
     {post.user_display} 
     <p>{post.updated_at.slice(0,10)}</p>
     <p>{post.updated_at.slice(11,16)}</p>
@@ -43,7 +43,9 @@ function ForumFeed(props) {
         <DashboardLayout/> 
         <div className="Component-styles-container">
         <h1> Forum Feed </h1>
+        <div className="Feed-cont-posts">
         {postArray}
+        </div>
         </div>
        
         

@@ -1,3 +1,17 @@
 .Component-styles-container {
     margin-top: 30vh; 
 }
+
+.Forum-feed-cont {
+    display: flex; 
+    flex-direction: column; 
+    align-content: center; 
+}
+.Forum-feed-cont .card {
+    max-width: 90vw; 
+    max-height: 30vh; 
+    font-family: 'Morpheus'
+}
+.Forum-feed-cont .card .feed-avatar {
+ max-width: 50px; 
+}
