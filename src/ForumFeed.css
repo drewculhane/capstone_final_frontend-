@@ -32,12 +32,8 @@
     font-family: 'Morpheus'
 }
 .link-overide {
-    text-decoration: none !important; 
+    color: #1D830C;
 }
-.post-title-text {
-    color: #1D830C; 
-    text-decoration: none !important; 
-}
-.post-title-text:hover {
+.link-overide:hover {
     text-decoration: underline 2px solid #C6E38C !important; 
 }
