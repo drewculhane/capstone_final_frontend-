@@ -55,10 +55,9 @@
 .lg-frm-cont button {
   background-color: #1D830C; 
   margin-bottom: 2vh; 
-  margin-top: 2vh; 
   color: #C6E38C; 
 }
 .lg-frm-cont input {
-  margin-top: 2vh; 
-  margin-bottom: 2vh; 
+  margin-top: 1vh; 
+  margin-bottom: 1vh; 
 }
