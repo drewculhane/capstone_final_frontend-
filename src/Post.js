@@ -176,7 +176,7 @@ function Post(props) {
       <>
 <div class="card text-white bg-dark mb-3" >
 <div class="card-header">
-<img src={comment.user_avatar} />
+<img className="feed-avatar" src={comment.user_avatar} />
   {timeStampComment}</div>
   {editLinkComment}
 <div class="card-body">
@@ -195,10 +195,10 @@ function Post(props) {
         <DashboardLayout/> 
         <div className="Component-styles-container">
         <h1> Post </h1>
-        </div>
+       
         <div class="card text-white bg-dark mb-3" >
         <div class="card-header">
-          <img src={post.user_avatar} alt="avatar image" />
+          <img className="feed-avatar" src={post.user_avatar} alt="avatar image" />
           {post.user_display}
           {editLinkPost}
           {deletePost}
@@ -212,6 +212,7 @@ function Post(props) {
         <div>
         {postCommentForm}
         </div> 
+        </div>
         </>
     )
 }
