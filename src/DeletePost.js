@@ -29,13 +29,13 @@ function DeletePost (props, {post}) {
     return (
       <>
         <Popup
-          trigger={<button className="btn btn-warning">Delete</button>}
+          trigger={<button className="button-green">Delete</button>}
           position="top right"
         >
           {(close) => (
             <div>
               <span> </span>
-              <button className="btn btn-warning" onClick={handleClick}>
+              <button className="button-green" onClick={handleClick}>
                 Confirm Post Deletion
               </button>
               <button className="close" onClick={close}>

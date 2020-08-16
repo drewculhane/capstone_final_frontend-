@@ -11,8 +11,9 @@
     flex-direction: column; 
 }
 
-.btn {
-    color: #1D830C !important; 
+.button-green {
+    background-color: #1D830C !important; 
+    color: #C6E38C;
     max-width: 35px; 
     font-size: 10px; 
 }
