@@ -22,7 +22,6 @@ function ProfileSettingsEdit(props) {
         });
     };
 
-    console.log("input state", dataInputThree)
     const handleSubmit = (event) => {
         const dataInput = input; 
         const dataInputTwo={
