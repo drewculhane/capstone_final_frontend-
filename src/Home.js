@@ -39,6 +39,7 @@ export default class Home extends Component {
                 <div class="card-body">
                 <h4> Login </h4>
                 <Login handleSuccessfulAuth={this.handleSuccessfulAuth} /> 
+                <h4> Registration </h4>
                 <Registration handleSuccessfulAuth={this.handleSuccessfulAuth} /> 
                 </div>
                 </div>  
