@@ -66,7 +66,7 @@ function CreatePost(props) {
             postDataForm = (
                 <>
                 <h4> {displayChoice}</h4>
-                <img src={avatarChoice} />
+                <img className="feed-avatar" src={avatarChoice} />
                 <PostCreateForm 
                 post={input}
                 setInput={setInput}
@@ -82,8 +82,12 @@ function CreatePost(props) {
         <>
         <DashboardLayout/> 
         <div className="Component-styles-container">
-        <h1> Create Post </h1>
+        <h1 className="For-feed-header"> Create Post </h1>
+        <div class="card text-white bg-dark mb-3" >
+        <div class="card-body">
         {postDataForm}
+        </div> 
+        </div>
         </div>
         </>
     )
