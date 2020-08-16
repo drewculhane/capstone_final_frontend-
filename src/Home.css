@@ -16,6 +16,7 @@
 }
 .card {
     margin-top: 5vh; 
+    max-height: 70vh; 
 }
 .card-body {
     display: flex; 
