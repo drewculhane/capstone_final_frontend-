@@ -10,3 +10,8 @@
     display: flex; 
     flex-direction: column; 
 }
+
+.btn {
+    color: #1D830C !important; 
+    max-width: 35px; 
+}
