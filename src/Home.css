@@ -12,6 +12,7 @@
     1px -1px 0 #1D830C ,
     -1px 1px 0 #1D830C ,
      1px 1px 0 #1D830C;
+    height: 100%; 
 }
 .card {
     margin-top: 5vh; 
