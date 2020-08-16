@@ -33,7 +33,9 @@
 }
 .link-overide {
     color: #1D830C;
+    text-decoration: none; 
 }
 .link-overide:hover {
-    text-decoration: underline 2px solid #C6E38C !important; 
+    text-decoration: underline 2px solid #1D830C!important; 
+    color: #C6E38C;
 }
