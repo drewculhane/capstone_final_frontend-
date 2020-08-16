@@ -22,7 +22,7 @@ function ProfileSettingsEdit(props) {
         });
     };
     const dataInputThree={
-        input, 
+        ...input,
         avatar: spotlight 
     }
     console.log("input state", dataInputThree)
