@@ -52,3 +52,14 @@
     -1px 1px 0 #1D830C ,
      1px 1px 0 #1D830C;
 }
+.lg-frm-cont button {
+  background-color: #C6E38C; 
+  margin-bottom: 4vh; 
+  margin-top: 2vh; 
+  color: #1D830C; 
+}
+.lg-frm-cont input {
+  background-color: #C6E38C; 
+  margin-top: 4vh; 
+  margin-bottom: 2vh; 
+}
