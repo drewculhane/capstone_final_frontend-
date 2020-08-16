@@ -15,11 +15,10 @@ function ProfileSettingsEdit(props) {
     const handleAvatarClick = (avatar) => {
         setSpotlight(avatar)
     }
-    const handleChange = (event, {spotlight}) => {
+    const handleChange = (event) => {
         setInput({
             ...input, 
             [event.target.name]: event.target.value, 
-            avatar: {spotlight}
         });
     };
     const dataInputThree={
