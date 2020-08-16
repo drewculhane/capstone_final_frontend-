@@ -15,6 +15,10 @@
       1px -1px 0 #1D830C ,
       -1px 1px 0 #1D830C ,
        1px 1px 0 #1D830C;
+    margin-left: 40vw; 
+    margin-right: 40vw; 
+    margin-top: 5vh; 
+    border: solid 2px #1D830C;
 }
 .Component-styles-container {
     background-image: url("https://res.cloudinary.com/dgmpgmo60/image/upload/v1597606219/Screen_Shot_2020-08-16_at_3.30.00_PM_ody2lb.png");
