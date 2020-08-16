@@ -31,6 +31,9 @@
     margin-left: 3vw; 
     font-family: 'Morpheus'
 }
+.link-overide {
+    text-decoration: none !important; 
+}
 .post-title-text {
     color: #1D830C; 
     text-decoration: none !important; 
