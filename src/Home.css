@@ -2,7 +2,13 @@
     margin-top: 25vh; 
     display: flex; 
     justify-content: center; 
-    font-family: 'Morpheus'
+    font-family: 'Morpheus';
+    color: #C6E38C !important; 
+  text-shadow:
+   -1px -1px 0 #1D830C ,  
+    1px -1px 0 #1D830C ,
+    -1px 1px 0 #1D830C ,
+     1px 1px 0 #1D830C;
 }
 
 .card-body {

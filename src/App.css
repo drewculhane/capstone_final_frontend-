@@ -40,3 +40,15 @@
 .Login-portal {
   margin-top: 20vh; 
 }
+.lg-frm-cont {
+  display: flex; 
+  flex-direction: column; 
+  align-content: center; 
+  font-family: 'Morpheus';
+  color: #C6E38C !important; 
+  text-shadow:
+   -1px -1px 0 #1D830C ,  
+    1px -1px 0 #1D830C ,
+    -1px 1px 0 #1D830C ,
+     1px 1px 0 #1D830C;
+}
