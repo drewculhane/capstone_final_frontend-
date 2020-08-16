@@ -26,7 +26,7 @@ function ForumFeed(props) {
     <div className="card-header"> 
     <img className="feed-avatar" src={post.user_avatar} />
     {post.user_display} 
-    <p>{post.updated_at.slice(0,10)}</p>
+    <p className="date-slice">{post.updated_at.slice(0,10)}</p>
     <p>{post.updated_at.slice(11,16)}</p>
     </div>
     <div class="card-body">

@@ -1,9 +1,10 @@
 .Component-styles-container {
-    margin-top: 30vh; 
+    margin-top: 16vh; 
 }
 .Component-styles-container {
     background-image: url("https://res.cloudinary.com/dgmpgmo60/image/upload/v1597602709/Screen_Shot_2020-08-16_at_2.31.15_PM_axiuxd.png");
     background-repeat: repeat; 
+    background-size: cover; 
 }
 .Feed-cont-posts {
     display: flex; 
@@ -14,4 +15,7 @@
 }
 .feed-avatar {
  max-width: 50px; 
+}
+.date-slice {
+    margin-top: 2vh; 
 }
