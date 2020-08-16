@@ -1,6 +1,6 @@
 .Login-Portal {
     background-image: url("https://res.cloudinary.com/dgmpgmo60/image/upload/v1597599467/Screen_Shot_2020-08-16_at_1.37.34_PM_hilac0.png");
-    background-size: 100% 100vw; 
+    background-size: 100% 100%; 
     background-repeat: no-repeat; 
     margin-top: 16vh; 
     display: flex; 
