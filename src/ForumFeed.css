@@ -1,5 +1,6 @@
 .Component-styles-container {
     margin-top: 16vh; 
+    font-family: 'Morpheus';
 }
 .Component-styles-container {
     background-image: url("https://res.cloudinary.com/dgmpgmo60/image/upload/v1597602709/Screen_Shot_2020-08-16_at_2.31.15_PM_axiuxd.png");
@@ -20,7 +21,7 @@
 }
 .feed-avatar {
  max-width: 60px; 
- margin-right: 4vh; 
+ margin-right: 2vh; 
 }
 .date-slice {
     margin-top: 2vh; 
@@ -30,6 +31,9 @@
     font-family: 'Morpheus'
 }
 .post-title-text {
-    font-family: 'Morpheus';
     color: #1D830C; 
+    text-decoration: none; 
+}
+.post-title-text:hover {
+    text-decoration: underline 2px solid #C6E38C; 
 }

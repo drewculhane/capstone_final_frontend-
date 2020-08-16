@@ -33,7 +33,6 @@ function ForumFeed(props) {
     <Link to={"/Forum/Feed/Post/" + post.id} >
     <h5 class="post-tile-text card-title">{post.title}</h5>
     </Link> 
-    <p class="card-text">{post.content}</p>
     </div>
     </div>
         </>
