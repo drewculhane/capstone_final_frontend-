@@ -1,6 +1,20 @@
 .Component-styles-container {
     margin-top: 16vh; 
     font-family: 'Morpheus';
+    display: flex; 
+    flex-direction: column; 
+    align-content: center; 
+}
+.For-feed-header {
+    padding: 3vh; 
+    border-radius: 5px; 
+    background-color: #1F212B; 
+    color: #C6E38C !important; 
+    text-shadow:
+     -1px -1px 0 #1D830C ,  
+      1px -1px 0 #1D830C ,
+      -1px 1px 0 #1D830C ,
+       1px 1px 0 #1D830C;
 }
 .Component-styles-container {
     background-image: url("https://res.cloudinary.com/dgmpgmo60/image/upload/v1597606219/Screen_Shot_2020-08-16_at_3.30.00_PM_ody2lb.png");

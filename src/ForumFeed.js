@@ -41,7 +41,7 @@ function ForumFeed(props) {
         <>
         <DashboardLayout/> 
         <div className="Component-styles-container">
-        <h1> Forum Feed </h1>
+        <h1 className="For-feed-header"> Forum Feed </h1>
         <div className="Feed-cont-posts">
         {postArray}
         </div>
