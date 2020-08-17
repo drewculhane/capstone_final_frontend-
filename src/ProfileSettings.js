@@ -25,7 +25,7 @@ function ProfileSettings(props) {
             userData = (
                     <>
                  <div className="card-header">
-                
+                 <a className="link-overide" href="/Dashboard/ProfileSettings/Edit"> Edit Profile </a>
                 <h3> Avatar: </h3>
                 {userInfo.avatar === null || "" ? 
                  <p> You haven't chosen an avatar yet.</p> : 
@@ -49,7 +49,7 @@ function ProfileSettings(props) {
                 <p>  Spec: <span className="greenwrap"> {userInfo.spec} </span></p>}
 
 
-                <a className="link-overide" href="/Dashboard/ProfileSettings/Edit"> Edit Profile </a>
+               
 
                 </div> 
                 </>

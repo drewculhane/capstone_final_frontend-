@@ -18,7 +18,7 @@ const ProfEditForm= ({ userInfo, user, handleSubmit, spotlight, handleChange, se
     }, [])
   return (
     <>
-    <form  onSubmit={handleSubmit}>
+    <form className="lg-frm-cont" onSubmit={handleSubmit}>
         <label>Nickname: </label>
         <input
           className=""

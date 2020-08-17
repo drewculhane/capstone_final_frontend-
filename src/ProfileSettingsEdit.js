@@ -98,7 +98,7 @@ function ProfileSettingsEdit(props) {
            
             userDataForm = (
                     <>
-                <h4> Email: {userInfo.email} </h4>
+                <h4> Email: <span className="greenwrap"> {userInfo.email} </span> </h4>
                 <ProfEditForm 
                 user={input}
                 handleChange={handleChange}
@@ -116,10 +116,19 @@ function ProfileSettingsEdit(props) {
         <>
         <DashboardLayout/> 
         <div className="Component-styles-container">
-        <h1> Profile Settings Edit </h1>
+        <h1 id="comment-thread-post" className="For-feed-header"> Profile Edit: </h1>
+        <div className="post-spef-widthcont card text-white bg-dark mb-3" >
+        <div className="card-header">
         {avatarArrayChoices}
-        </div>
+        </div> 
+        </div> 
+        <div className="post-spef-widthcont card text-white bg-dark mb-3" >
+        <div className="card-header">
+        
         {userDataForm}
+        </div>
+        </div> 
+        </div> 
         </>
     )
 }
