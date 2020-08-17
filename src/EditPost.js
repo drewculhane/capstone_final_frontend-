@@ -86,10 +86,12 @@ function EditPost(props) {
         <DashboardLayout/> 
         <div className="Component-styles-container">
         <h1 id="comment-thread-post" className="For-feed-header"> Edit Post: </h1>
+        <div className="post-spef-widthcont card text-white bg-dark mb-3" >
         <div className="card-header">
         {postEdit}
         </div>
         </div>
+        </div> 
         </>
     )
 }
