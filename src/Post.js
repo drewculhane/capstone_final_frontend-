@@ -34,7 +34,6 @@ function Post(props) {
          displayChoice = props.user.nickname
     }
     }
-  }
     let avatarChoice; 
     if (props.user) {
     if (!props.user.avatar || props.user.avatar == "") {
