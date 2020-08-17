@@ -35,8 +35,8 @@ function DeletePost (props, {post}) {
           {(close) => (
             <div>
               <span> </span>
-              <button className="button-green" onClick={handleClick}>
-                Confirm Post Deletion
+              <button id="modal" className="button-green" onClick={handleClick}>
+                Confirm Deletion 
               </button>
               <button className="close" onClick={close}>
                 &times;
