@@ -41,6 +41,7 @@
 .post-title-highlight {
     font-size: 25px !important; 
     color: #1D830C; 
+    text-shadow: none !important; 
 }
 .display-user-timestamp-cont {
     display: flex; 
@@ -51,8 +52,8 @@
     flex-direction: row; 
 }
 .avatar-post {
-    width: 20vw; 
-    height: 20vh; 
+    width: 10vw !important; 
+    height: 10vh; 
 }
 .color-content-post {
     color: #C6E38C;
