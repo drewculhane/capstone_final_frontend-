@@ -35,7 +35,7 @@ function ProfileSettings(props) {
                 <p> You haven't chosen a nickname yet. Without a nickname you will be refered to as "Anonymous Druid" when you make posts.</p> :
                 <p> {userInfo.nickname} </p>}
                 <h4> Email: {userInfo.email} </h4>
-                <a href="/Dashboard/ProfileSettings/Edit"> Edit Profile </a>
+                <a className="link-overide" href="/Dashboard/ProfileSettings/Edit"> Edit Profile </a>
                 </div> 
                 <div className="card-body">
                 {userInfo.server === null || "" ? 
