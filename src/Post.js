@@ -107,8 +107,8 @@ function Post(props) {
            
             postCommentForm = (
                 <>
-                <h4> {displayChoice}</h4>
                 <img src={avatarChoice} />
+                <h4> {displayChoice}</h4>
                 <div className="card-body">
                 <CommentForm 
                 comment={input}
