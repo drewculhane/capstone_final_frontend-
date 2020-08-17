@@ -55,7 +55,7 @@
     flex-direction: row; 
 }
 #avatar {
-    width: 10vw !important; 
+    max-width: 20vw !important; 
     height: 10vh; 
 }
 .color-content-post {
