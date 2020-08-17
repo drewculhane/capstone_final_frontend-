@@ -203,13 +203,18 @@ function Post(props) {
         <div class="card-header">
           <div className="post-header-cont">
           <img className="feed-avatar" src={post.user_avatar} alt="avatar image" />
+          <div className="display-user-timestamp-cont">
           <p>{post.user_display}</p>
-          <p>{post.title}</p>
+          <div className="timestamp-cont-one">
           {timeStamp} 
+          </div>
+          </div>
+          <p className="post-title-highlight">{post.title}</p>
+          
           </div>
           <div className="user-actions-ts" onClick={updateDisplay}>
           <div className="user-action-flex-cont">
-          { props.user.id === post.user_id ? <div> Post Owner Actions: </div> : null }
+          { props.user.id === post.user_id ? <div> Toggle Author Actions: </div> : null }
           { displayUsertools === false && props.user.id === post.user_id ? <div className="v">^</div> : <div div className="v">v</div> }
           </div>
           { displayUsertools === true && props.user.id === post.user_id ? <div> {editLinkPost}{deletePost} </div> : null }

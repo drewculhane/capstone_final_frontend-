@@ -29,3 +29,19 @@
     display: flex; 
     flex-direction: row; 
 }
+.post-header-cont p {
+    font-size: 30px; 
+    margin-left: 3vw; 
+}
+.post-title-highlight {
+    font-size: 30px; 
+    color: #1D830C; 
+}
+.display-user-timestamp-cont {
+    display: flex; 
+    flex-direction: column; 
+}
+.timestamp-cont-one {
+    display: flex; 
+    flex-direction: row; 
+}
