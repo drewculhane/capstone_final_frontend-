@@ -5,7 +5,7 @@ import {useState, useEffect} from "react";
 const EditCommentForm= ({ comment, handleSubmit, handleChange}) => {
   return (
     <>
-    <form  onSubmit={handleSubmit}>
+    <form  className="lg-frm-cont" onSubmit={handleSubmit}>
         <label>Content: </label>
         <input
           className=""

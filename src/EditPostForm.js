@@ -5,7 +5,7 @@ import {useState, useEffect} from "react";
 const EditPostForm= ({ post, handleSubmit, handleChange}) => {
   return (
     <>
-    <form  onSubmit={handleSubmit}>
+    <form  className="lg-frm-cont" onSubmit={handleSubmit}>
         <label>Title: </label>
         <input
           className=""

@@ -71,11 +71,13 @@ function EditPost(props) {
             <p> {props.user.nickname} </p> :
             <p> Anonymous Druid </p>    
         } 
+        <div className="card-body">
             <EditPostForm
                 post={input}
                 handleChange={handleChange}
                 handleSubmit={handleSubmit}
                 />
+                </div>
                 </>
         )
         }
@@ -83,8 +85,10 @@ function EditPost(props) {
         <>
         <DashboardLayout/> 
         <div className="Component-styles-container">
-        <h1> Edit Post </h1>
+        <h1 id="comment-thread-post" className="For-feed-header"> Edit Post: </h1>
+        <div className="card-header">
         {postEdit}
+        </div>
         </div>
         </>
     )
