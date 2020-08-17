@@ -35,17 +35,18 @@ function ProfileSettings(props) {
                 <p> You haven't chosen a nickname yet. Without a nickname you will be refered to as "Anonymous Druid" when you make posts.</p> :
                 <p> {userInfo.nickname} </p>}
                 <h4> Email: {userInfo.email} </h4>
+                <a href="/Dashboard/ProfileSettings/Edit"> Edit Profile </a>
                 </div> 
                 <div className="card-body">
                 {userInfo.server === null || "" ? 
                 <p> You haven't chosen a server yet.</p> :
-                <p> {userInfo.server} </p>}
+                <p> Server: {userInfo.server} </p>}
                 {userInfo.server_region === null || "" ? 
                 <p> You haven't chosen a region yet.</p> :
-                <p> {userInfo.server_region} </p>}
+                <p> Server Region: {userInfo.server_region} </p>}
                 {userInfo.spec === null || "" ? 
                 <p> You haven't indicated a spec yet.</p> :
-                <p> {userInfo.spec} </p>}
+                <p> Spec: {userInfo.spec} </p>}
                 </div>
                 </>
                 )
@@ -57,7 +58,6 @@ function ProfileSettings(props) {
         <DashboardLayout/> 
         <div className="Component-styles-container">
         <h1 id="comment-thread-post" className="For-feed-header"> Profile Settings: </h1>
-        <a href="/Dashboard/ProfileSettings/Edit"> Edit Profile </a>
         <div className="post-spef-widthcont card text-white bg-dark mb-3" >
         {userData}
         </div> 
