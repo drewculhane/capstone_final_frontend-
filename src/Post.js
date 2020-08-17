@@ -109,12 +109,14 @@ function Post(props) {
                 <>
                 <h4> {displayChoice}</h4>
                 <img src={avatarChoice} />
+                <div className="card-body">
                 <CommentForm 
                 comment={input}
                 setInput={setInput}
                 handleChange={handleChange}
                 handleSubmit={handleSubmit}
                 />
+                </div>
                 </>
                 )
                 if (props.user.id === post.user_id)
@@ -235,7 +237,12 @@ function Post(props) {
         <h1 id="comment-thread" className="For-feed-header"> Comments: </h1>
         {commentsArray}
         <div>
+
+        <div class="card text-white bg-dark mb-3" >
+            <div class="card-header">
         {postCommentForm}
+        </div> 
+        </div> 
         </div> 
         </div>
         </>
