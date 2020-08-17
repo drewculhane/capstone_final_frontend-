@@ -156,8 +156,8 @@ function Post(props) {
       const clockDataComment = comment.updated_at.slice(11,16)
       timeStampComment = (
         <>
-          {yearMonthComment}
-          {clockDataComment}
+          <p>{yearMonthComment}</p>
+          <p>{clockDataComment}</p>
         </>
 
       )
@@ -181,11 +181,15 @@ function Post(props) {
 <div class="comment-card-indent card text-white bg-dark mb-3" >
 <div class="card-header">
 <img className="feed-avatar" src={comment.user_avatar} />
-  {timeStampComment}</div>
+<div className="display-user-timestamp-cont">
+          <p>{comment.user_display}</p>
+          <div className="timestamp-cont-one">
+          {timeStampComment} 
+          </div>
+          </div>
+</div>
   {editLinkComment}
 <div class="card-body">
- 
-<h5 class="card-title">{comment.user_display}</h5>
 <p class="card-text">{comment.content}</p>
 </div>
 </div>

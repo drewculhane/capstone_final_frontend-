@@ -29,14 +29,14 @@ function DeleteComment (props) {
     return (
       <>
         <Popup
-          trigger={<button className="btn btn-warning">Delete</button>}
+          trigger={<button className="button-green">Delete</button>}
           position="top right"
         >
           {(close) => (
             <div>
               <span> </span>
-              <button className="btn btn-warning" onClick={handleClick}>
-                Confirm Comment Deletion
+              <button id="modal" className="button-green" onClick={handleClick}>
+                Confirm Deletion
               </button>
               <button className="close" onClick={close}>
                 &times;
