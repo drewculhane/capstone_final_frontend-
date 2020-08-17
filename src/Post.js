@@ -212,9 +212,9 @@ function Post(props) {
           <p className="post-title-highlight">{post.title}</p>
           
           </div>
-          <div className="user-actions-ts" onClick={updateDisplay}>
+          <div className="user-actions-ts">
           <div className="user-action-flex-cont">
-          { props.user.id === post.user_id ? <div> Toggle Author Actions: </div> : null }
+          { props.user.id === post.user_id ? <div onclick={updateDisplay}> Toggle Author Actions: </div> : null }
           { displayUsertools === false && props.user.id === post.user_id ? <div className="v">^</div> : <div div className="v">v</div> }
           </div>
           { displayUsertools === true && props.user.id === post.user_id ? <div> {editLinkPost}{deletePost} </div> : null }
