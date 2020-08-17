@@ -120,7 +120,7 @@ function ProfileSettingsEdit(props) {
         <div className="post-spef-widthcont card text-white bg-dark mb-3" >
         <div className="card-header">
         <h1> <span className="greenwrap"> Avatar Choices: </span></h1>
-        <div classname="avatar-choice-cont">
+        <div className="avatar-choice-cont">
         {avatarArrayChoices}
         </div>
         </div> 
