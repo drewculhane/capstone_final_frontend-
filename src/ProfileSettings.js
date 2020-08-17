@@ -24,7 +24,8 @@ function ProfileSettings(props) {
            
             userData = (
                     <>
-                <h4> Email: {userInfo.email} </h4>
+                 <div className="card-header">
+                
                 <h3> Avatar: </h3>
                 {userInfo.avatar === null || "" ? 
                  <p> You haven't chosen an avatar yet.</p> : 
@@ -33,6 +34,9 @@ function ProfileSettings(props) {
                 {userInfo.nickname === null || "" ? 
                 <p> You haven't chosen a nickname yet. Without a nickname you will be refered to as "Anonymous Druid" when you make posts.</p> :
                 <p> {userInfo.nickname} </p>}
+                <h4> Email: {userInfo.email} </h4>
+                </div> 
+                <div className="card-body">
                 {userInfo.server === null || "" ? 
                 <p> You haven't chosen a server yet.</p> :
                 <p> {userInfo.server} </p>}
@@ -42,6 +46,7 @@ function ProfileSettings(props) {
                 {userInfo.spec === null || "" ? 
                 <p> You haven't indicated a spec yet.</p> :
                 <p> {userInfo.spec} </p>}
+                </div>
                 </>
                 )
             
@@ -51,12 +56,12 @@ function ProfileSettings(props) {
         <>
         <DashboardLayout/> 
         <div className="Component-styles-container">
-        <h1> Profile Settings </h1>
+        <h1 id="comment-thread-post" className="For-feed-header"> Profile Settings: </h1>
         <a href="/Dashboard/ProfileSettings/Edit"> Edit Profile </a>
-        </div>
-        <div> 
+        <div className="post-spef-widthcont card text-white bg-dark mb-3" >
         {userData}
         </div> 
+        </div>
         </>
     )
 }
