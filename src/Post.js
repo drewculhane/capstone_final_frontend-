@@ -209,10 +209,9 @@ function Post(props) {
           {timeStamp} 
           </div>
           </div>
-          <p className="post-title-highlight">{post.title}</p>
-          
           </div>
           <div className="user-actions-ts">
+          <p className="post-title-highlight">{post.title}</p>
           <div className="user-action-flex-cont">
           { props.user.id === post.user_id ? <div onClick={updateDisplay}> Toggle Author Actions: </div> : null }
           { displayUsertools === false && props.user.id === post.user_id ? <div className="v">^</div> : <div div className="v">v</div> }
