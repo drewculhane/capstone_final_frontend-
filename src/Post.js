@@ -238,8 +238,8 @@ function Post(props) {
         {commentsArray}
         <div>
 
-        <div class="card text-white bg-dark mb-3" >
-            <div class="card-header">
+        <div id="comment-form" className="card text-white bg-dark mb-3" >
+            <div className="card-header">
         {postCommentForm}
         </div> 
         </div> 
