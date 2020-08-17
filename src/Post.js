@@ -202,7 +202,7 @@ function Post(props) {
         <div className="post-spef-widthcont card text-white bg-dark mb-3" >
         <div class="card-header">
           <div className="post-header-cont">
-          <img className="feed-avatar" src={post.user_avatar} alt="avatar image" />
+          <img className="feed-avatar avatar-post" src={post.user_avatar} alt="avatar image" />
           <div className="display-user-timestamp-cont">
           <p>{post.user_display}</p>
           <div className="timestamp-cont-one">
