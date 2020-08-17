@@ -18,3 +18,14 @@
     font-size: 15px; 
     max-height: 30px; 
 }
+.user-action-flex-cont {
+    display: flex; 
+    flex-direction: row; 
+}
+.user-action-flex-cont:hover {
+    color: #1D830C; 
+}
+.post-header-cont {
+    display: flex; 
+    flex-direction: row; 
+}

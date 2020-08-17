@@ -33,6 +33,7 @@ function Post(props) {
     } else {
          displayChoice = props.user.nickname
     }
+    }
   }
     let avatarChoice; 
     if (props.user) {
@@ -49,8 +50,8 @@ function Post(props) {
       const clockData = post.updated_at.slice(11,16)
       timeStamp = (
         <>
-          {yearMonth}
-          {clockData}
+          <p>{yearMonth}</p>
+          <p>{clockData}</p>
         </>
 
       )
@@ -201,17 +202,22 @@ function Post(props) {
         <div className="Component-styles-container">
         <div className="post-spef-widthcont card text-white bg-dark mb-3" >
         <div class="card-header">
+          <div className="post-header-cont">
           <img className="feed-avatar" src={post.user_avatar} alt="avatar image" />
-          {post.user_display}
+          <p>{post.user_display}</p>
+          <p>{post.title}</p>
           {timeStamp} 
+          </div>
           <div className="user-actions-ts" onClick={updateDisplay}>
-          { props.user.id === post.user_id ? <div> User Actions: </div> : null }
+          <div className="user-action-flex-cont">
+          { props.user.id === post.user_id ? <div> Post Owner Actions: </div> : null }
           { displayUsertools === false && props.user.id === post.user_id ? <div className="v">^</div> : <div div className="v">v</div> }
+          </div>
           { displayUsertools === true && props.user.id === post.user_id ? <div> {editLinkPost}{deletePost} </div> : null }
           </div> 
           </div>
         <div class="card-body">
-        <h5 class="card-title">{post.title}</h5>
+        <h5 class="card-title"></h5>
          <p class="card-text">{post.content}</p>
         </div>
         </div>
