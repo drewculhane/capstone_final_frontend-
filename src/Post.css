@@ -30,11 +30,11 @@
     flex-direction: row; 
 }
 .post-header-cont p {
-    font-size: 15px; 
+    font-size: 20px; 
     margin-left: 3vw; 
 }
 .post-title-highlight {
-    font-size: 30px; 
+    font-size: 25px !important; 
     color: #1D830C; 
 }
 .display-user-timestamp-cont {
@@ -46,6 +46,6 @@
     flex-direction: row; 
 }
 .avatar-post {
-    width: 10vw; 
-    height: 6vh; 
+    width: 20vw; 
+    height: 10vh; 
 }
