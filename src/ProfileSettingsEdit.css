@@ -1,3 +1,12 @@
 .avatar-choice-cont {
     max-width: 55vw; 
 }
+.choice-width-det {
+    width: 15vw; 
+}
+.avatar-flex-cont {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-content: center; 
+}

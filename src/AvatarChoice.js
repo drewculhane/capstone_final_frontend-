@@ -21,7 +21,7 @@ populateAvatar();
     }
     return (
         <>
-        <img 
+        <img className="choice-width-det"
             style={ avatarImg == props.spotlight ? {border: "2px solid green"} : {border: "none"}}
             onClick={handleAvatar}
             src={avatarImg} alt="Elf Avatar" 
