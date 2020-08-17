@@ -157,7 +157,7 @@ function Post(props) {
       timeStampComment = (
         <>
           <p>{yearMonthComment}</p>
-          <p>{clockDataComment}</p>
+          <p className="clock-margin">{clockDataComment}</p>
         </>
 
       )
@@ -187,8 +187,11 @@ function Post(props) {
           {timeStampComment} 
           </div>
           </div>
+          <div className="timestamp-cont-one">
+          {editLinkComment}
+          </div>
 </div>
-  {editLinkComment}
+  
 <div class="card-body">
 <p class="card-text">{comment.content}</p>
 </div>
