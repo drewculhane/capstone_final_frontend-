@@ -33,20 +33,20 @@ function ProfileSettings(props) {
                 }
                 {userInfo.nickname === null || "" ? 
                 <p>  <span className="greenwrap">You haven't chosen a nickname yet. Without a nickname you will be refered to as "Anonymous Druid" when you make posts.</span> </p> :
-                <p> <p className="nickname-edit"> <span className="greenwrap"> Nickname: {userInfo.nickname} </span> </p></p>}
-                <h4> <span className="greenwrap"> Email: {userInfo.email} </span></h4>
+                <p> <p className="nickname-edit">  Nickname:<span className="greenwrap"> {userInfo.nickname} </span> </p></p>}
+                <h4> Email: <span className="greenwrap"> {userInfo.email} </span></h4>
                 <a className="link-overide" href="/Dashboard/ProfileSettings/Edit"> Edit Profile </a>
                 </div> 
                 <div className="card-body">
                 {userInfo.server === null || "" ? 
                 <p> <span className="greenwrap"> You haven't chosen a server yet.</span></p> :
-                <p> <span className="greenwrap"> Server: {userInfo.server} </span></p>}
+                <p>  Server: <span className="greenwrap"> {userInfo.server} </span></p>}
                 {userInfo.server_region === null || "" ? 
                 <p> <span className="greenwrap"> You haven't chosen a region yet.</span></p> :
-                <p> <span className="greenwrap"> Server Region: {userInfo.server_region} </span></p>}
+                <p>  Server Region: <span className="greenwrap"> {userInfo.server_region} </span></p>}
                 {userInfo.spec === null || "" ? 
                 <p> <span className="greenwrap"> You haven't indicated a spec yet.</span></p> :
-                <p> <span className="greenwrap"> Spec: {userInfo.spec} </span></p>}
+                <p>  Spec: <span className="greenwrap"> {userInfo.spec} </span></p>}
                 </div>
                 </>
                 )
