@@ -187,6 +187,7 @@ function Post(props) {
           {timeStampComment} 
           </div>
           </div>
+          <p> Comment Author Actions: </p> 
           <div className="timestamp-cont-one">
           {editLinkComment}
           </div>
@@ -231,7 +232,7 @@ function Post(props) {
          <p class="card-text color-content-post">{post.content}</p>
         </div>
         </div>
-        <h1 className="For-feed-header"> Comments </h1>
+        <h1 id="comment-thread" className="For-feed-header"> Comments: </h1>
         {commentsArray}
         <div>
         {postCommentForm}
