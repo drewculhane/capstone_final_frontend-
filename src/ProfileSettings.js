@@ -26,7 +26,7 @@ function ProfileSettings(props) {
                     <>
                  <div className="card-header">
                 
-                <h3> <span className="greenwrap">Avatar:</span> </h3>
+                <h3> Avatar: </h3>
                 {userInfo.avatar === null || "" ? 
                  <p> You haven't chosen an avatar yet.</p> : 
                  <img src={userInfo.avatar} /> 
