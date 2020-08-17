@@ -11,6 +11,7 @@ import {dreamwayApi} from './apiConfig.js'
 function Post(props) {
   console.log("Inside Post", props.user)
     const userDelete = props.user 
+    const [displayUsertools,setDisplayUsertools] = useState(false);
     const [post, setPost] = useState([]);
     let postId=props.match.params.postid 
     useEffect(() => {
@@ -193,6 +194,7 @@ function Post(props) {
     });
   }
     }
+    const updateDisplay = () => setDisplayUsertools(!displayUsertools);
     return (
         <>
         <DashboardLayout/> 
@@ -201,10 +203,11 @@ function Post(props) {
         <div class="card-header">
           <img className="feed-avatar" src={post.user_avatar} alt="avatar image" />
           {post.user_display}
-          <div className="user-actions-ts">
-          {editLinkPost}
-          {deletePost}
           {timeStamp} 
+          <div className="user-actions-ts" onClick={updateDisplay}>
+          { props.user.id === post.user_id ? <div> User Actions: </div> : null }
+          { displayUsertools === false && props.user.id === post.user_id ? <div className="v">^</div> : <div div className="v">v</div> }
+          { displayUsertools === true && props.user.id === post.user_id ? <div> {editLinkPost}{deletePost} </div> : null }
           </div> 
           </div>
         <div class="card-body">
