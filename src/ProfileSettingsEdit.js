@@ -119,7 +119,9 @@ function ProfileSettingsEdit(props) {
         <h1 id="comment-thread-post" className="For-feed-header"> Profile Edit: </h1>
         <div className="post-spef-widthcont card text-white bg-dark mb-3" >
         <div className="card-header">
+        <div classname="avatar-choice-cont">
         {avatarArrayChoices}
+        </div>
         </div> 
         </div> 
         <div className="post-spef-widthcont card text-white bg-dark mb-3" >
