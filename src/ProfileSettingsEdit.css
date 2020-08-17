@@ -1,10 +1,11 @@
 .avatar-choice-cont {
     max-width: 55vw; 
+    cursor: pointer; 
 }
 .choice-width-det {
     width: 15vw; 
 }
 
 .card-choices {
-    max-width: 58vw; 
+    max-width: 56vw; 
 } 
