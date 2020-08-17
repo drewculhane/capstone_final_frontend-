@@ -4,7 +4,8 @@
 .choice-width-det {
     width: 15vw; 
 }
-.avatar-flex-cont {
+
+.card-choices {
     display: flex; 
     flex-direction: column; 
     justify-content: center; 

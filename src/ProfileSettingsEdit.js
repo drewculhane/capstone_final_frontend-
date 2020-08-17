@@ -117,7 +117,7 @@ function ProfileSettingsEdit(props) {
         <DashboardLayout/> 
         <div className="Component-styles-container">
         <h1 id="comment-thread-post" className="For-feed-header"> Profile Edit: </h1>
-        <div className="post-spef-widthcont card text-white bg-dark mb-3" >
+        <div className="post-spef-widthcont card-choices card text-white bg-dark mb-3" >
         <div className="card-header">
         <div className="avatar-flex-cont">
         <h1> <span className="greenwrap"> Avatar Choices: </span></h1>
