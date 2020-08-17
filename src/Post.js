@@ -222,7 +222,7 @@ function Post(props) {
           </div>
         <div class="card-body">
         <h5 class="card-title"></h5>
-         <p class="card-text">{post.content}</p>
+         <p class="card-text color-content-post">{post.content}</p>
         </div>
         </div>
         <h1 className="For-feed-header"> Comments </h1>

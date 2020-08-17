@@ -32,6 +32,11 @@
 .post-header-cont p {
     font-size: 20px; 
     margin-left: 3vw; 
+    text-shadow:
+     -1px -1px 0 #1D830C ,  
+      1px -1px 0 #1D830C ,
+      -1px 1px 0 #1D830C ,
+       1px 1px 0 #1D830C
 }
 .post-title-highlight {
     font-size: 25px !important; 
@@ -47,5 +52,8 @@
 }
 .avatar-post {
     width: 20vw; 
-    height: 10vh; 
+    height: 20vh; 
+}
+.color-content-post {
+    color: #C6E38C;
 }
