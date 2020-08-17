@@ -26,27 +26,27 @@ function ProfileSettings(props) {
                     <>
                  <div className="card-header">
                 
-                <h3> Avatar: </h3>
+                <h3> <span className="greenwrap">Avatar:</span> </h3>
                 {userInfo.avatar === null || "" ? 
                  <p> You haven't chosen an avatar yet.</p> : 
                  <img src={userInfo.avatar} /> 
                 }
                 {userInfo.nickname === null || "" ? 
-                <p> You haven't chosen a nickname yet. Without a nickname you will be refered to as "Anonymous Druid" when you make posts.</p> :
-                <p> Nickname: {userInfo.nickname} </p>}
-                <h4> Email: {userInfo.email} </h4>
+                <p>  <span className="greenwrap">You haven't chosen a nickname yet. Without a nickname you will be refered to as "Anonymous Druid" when you make posts.</span> </p> :
+                <p> <p className="nickname-edit"> <span className="greenwrap"> Nickname: {userInfo.nickname} </span> </p></p>}
+                <h4> <span className="greenwrap"> Email: {userInfo.email} </span></h4>
                 <a className="link-overide" href="/Dashboard/ProfileSettings/Edit"> Edit Profile </a>
                 </div> 
                 <div className="card-body">
                 {userInfo.server === null || "" ? 
-                <p> You haven't chosen a server yet.</p> :
-                <p> Server: {userInfo.server} </p>}
+                <p> <span className="greenwrap"> You haven't chosen a server yet.</span></p> :
+                <p> <span className="greenwrap"> Server: {userInfo.server} </span></p>}
                 {userInfo.server_region === null || "" ? 
-                <p> You haven't chosen a region yet.</p> :
-                <p> Server Region: {userInfo.server_region} </p>}
+                <p> <span className="greenwrap"> You haven't chosen a region yet.</span></p> :
+                <p> <span className="greenwrap"> Server Region: {userInfo.server_region} </span></p>}
                 {userInfo.spec === null || "" ? 
-                <p> You haven't indicated a spec yet.</p> :
-                <p> Spec: {userInfo.spec} </p>}
+                <p> <span className="greenwrap"> You haven't indicated a spec yet.</span></p> :
+                <p> <span className="greenwrap"> Spec: {userInfo.spec} </span></p>}
                 </div>
                 </>
                 )
