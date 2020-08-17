@@ -71,3 +71,7 @@
     margin-left: 10vw; 
     margin-right: 10vw; 
 }
+#comment-thread-post {
+    font-size: 25px;
+    max-width: 300px; 
+}

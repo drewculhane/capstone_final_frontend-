@@ -237,7 +237,7 @@ function Post(props) {
         <h1 id="comment-thread" className="For-feed-header"> Comments: </h1>
         {commentsArray}
         <div>
-
+        <h1 id="comment-thread-post" className="For-feed-header"> Post a Comment: </h1>
         <div id="comment-form" className="card text-white bg-dark mb-3" >
             <div className="card-header">
         {postCommentForm}
