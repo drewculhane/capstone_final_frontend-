@@ -124,12 +124,6 @@
       display: flex; 
       padding-left: 5vw; 
     }
-    .navbar-nav {
-      max-height: 10vh;
-      max-height: 100px;
-      display: flex; 
-      flex-direction: row; 
-    }
     .Logo {
       max-width: 300px;
       margin-right: 40px;
