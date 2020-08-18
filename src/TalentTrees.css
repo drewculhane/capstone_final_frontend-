@@ -1,8 +1,17 @@
 .Component-styles-container {
     margin-top: 30vh; 
 }
-.talent-cont {
-   width: 375px; 
-   min-width: 375px; 
+
+.talents {
+   display: none; 
+   min-width: 375px !important; 
+}
+
+@media only screen and (min-width: 600px) {
+    .talents {
+        display: inline-block; 
+        margin-left: 10vw; 
+        margin-right: 10vw; 
+    }
 
 }

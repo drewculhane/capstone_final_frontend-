@@ -10,7 +10,7 @@ function TalentTrees() {
         <h1 id="comment-thread-post" className="For-feed-header"> Talent Trees: </h1>
         <h1 id="comment-thread-post" className="For-feed-header"> | NOT MOBILE FRIENDLY |</h1>
         <div className="talent-cont">
-        <a href="https://classic.wowhead.com/talent-calc/embed/druid"> Embedded. </a>
+        <a className="talents" href="https://classic.wowhead.com/talent-calc/embed/druid"> Embedded. </a>
         </div>
         <div className="post-spef-widthcont card-choices card text-white bg-dark mb-3" >
         <div className="card-header">
