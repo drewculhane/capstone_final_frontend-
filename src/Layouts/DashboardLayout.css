@@ -129,7 +129,6 @@
       max-height: 100px;
       display: flex; 
       flex-direction: row; 
-      justify-items: flex-start; 
     }
     .Logo {
       max-width: 300px;
