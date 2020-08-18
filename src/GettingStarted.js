@@ -75,14 +75,8 @@ function GettingStarted() {
         <h1 id="comment-thread-post" className="For-feed-header"> Questie: </h1>
         <div className="post-spef-widthcont card-choices card text-white bg-dark mb-3" >
         <div className="card-header">
-        <div className="card-body">
-        </div>
-        </div> 
-        </div> 
-        <div className="post-spef-widthcont card-choices card text-white bg-dark mb-3" >
-        <div className="card-header">
           <h2> Questie is a must-have add-on for WoW. You can download it from the link above. It shows you where your quest-givers and objectives are on the map. Here is the Folder path for drag and drop: </h2>
-          <h2> <span className="greenwrap"><a href="https://www.curseforge.com/wow/addons/questie" target="_blank">  Download Link </a> </span></h2> 
+          <h2> <span className="greenwrap"><a className="link-overide" href="https://www.curseforge.com/wow/addons/questie" target="_blank">  Download Link </a> </span></h2> 
           <div className="card-body">
           </div> 
           </div> 
@@ -123,15 +117,22 @@ function GettingStarted() {
         <div className="card-body">
           <h2>  It's pretty convenient to pick up Herbalism and/or Skinning when you come to Dolanaar in Teldrassil, alongside a myriad of other secondary and primary skills. You can only have two primary skills. 
               The Herbalism trainer is in town, but the skinning trainer is a little further up the road towards Darnassus. If you want to buy a skinning knife ahead of time, 
-              talk to Narret Shadowgrove in Dolanaar. For a full list of Dolanaar trainers and NPCs/POIs, see the link below. We recommend getting started on leveling your primary skills ASAP while you are progressing from 
+              talk to Narret Shadowgrove in Dolanaar.  </h2>
+        </div>
+        </div> 
+        </div> 
+        <div className="post-spef-widthcont card-choices card text-white bg-dark mb-3" >
+        <div className="card-header">
+        <div className="card-body">
+        <h2> We recommend getting started on leveling your primary skills ASAP while you are progressing from 
               levels 1-10. *** Please Note, Teldrassil is one of the best places to level apprentice Herbalism. It's a tree and it is filled with herbs. *** If you are planning on being a FERAL DPS or a TANK, we recommend 
-              getting Leatherworking as one of your two primary skills. That way you can make "Devilsaur Gauntlets", and "Devilsaur Leggings" which are Best in Slot later in the game. 
+              getting Leatherworking as one of your two primary skills. That way you can make "Devilsaur Gauntlets", and "Devilsaur Leggings" which are Best in Slot later in the game. For a full list of Dolanaar trainers and NPCs/POIs, see the link below.
               </h2>
-              <h2> <span className="greenwrap"><a href="https://wow.gamepedia.com/Dolanaar#Residents" target="_blank">  Dolanaar Residents </a> </span></h2> 
+              <h2> <span className="greenwrap"><a className="link-overide"  href="https://wow.gamepedia.com/Dolanaar#Residents" target="_blank">  Dolanaar Residents </a> </span></h2> 
+        </div>
         </div>
         </div> 
         </div> 
-        </div>
         </>
     )
 }
