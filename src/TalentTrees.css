@@ -2,5 +2,7 @@
     margin-top: 30vh; 
 }
 .talent-cont {
-    max-width: 60vw; 
+   width: 60vw; 
+   margin-left: 20vw; 
+   margin-right: 20vw; 
 }
