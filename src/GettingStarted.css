@@ -7,13 +7,13 @@
 
 .Getting-Started div {
     min-width: 80vw !important; 
-    margin: 2vw !important; 
+    margin: none !important; 
 }
 .Getting-Started div div {
     min-width: 80vw !important; 
-    margin: 2vw !important; 
+    margin: none !important; 
 }
 .Getting-Started div div div {
     min-width: 80vw !important;
-    margin: 2vw !important;  
+    margin: none !important;  
 }
