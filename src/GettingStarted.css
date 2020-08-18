@@ -4,9 +4,7 @@
 .Getting-Started h1, h2 {
     font-size: 20px !important; 
 }
-.Getting-started {
-    max-width: 880px !important; 
-}
+
 .Getting-Started div {
     min-width: 80vw !important; 
     margin: none !important; 
@@ -21,4 +19,7 @@
     min-width: 80vw !important;
     margin: none !important;  
 
+}
+.Getting-started {
+    max-width: 880px !important; 
 }
