@@ -6,7 +6,7 @@ function GettingStarted() {
     return (
         <>
         <DashboardLayout/> 
-        <div className="Component-styles-container Getting-Started">
+        <div id="g-s" className="Component-styles-container Getting-Started">
         <h1 id="comment-thread-post" className="For-feed-header"> Getting Started </h1>
         <div className="post-spef-widthcont card-choices card text-white bg-dark mb-3" >
         <div className="card-header">
