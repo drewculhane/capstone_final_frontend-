@@ -11,8 +11,7 @@
         display: inline-block; 
      }
     .talents {
-        /* width: 375px !important; 
-        height: 300px !important;  */
+        max-width: 700px !important; 
         margin-left: 10vw; 
         margin-right: 10vw; 
     }
