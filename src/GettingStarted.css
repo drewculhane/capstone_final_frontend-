@@ -20,6 +20,21 @@
     margin: none !important;  
 
 }
-#g-s {
-    max-width: 880px !important; 
+@media only screen and (min-width: 880px) {
+    .Getting-Started div {
+        max-width: 880px !important; 
+        margin: none !important; 
+      
+    }
+    .Getting-Started div div {
+        max-width: 880px !important; 
+        margin: none !important; 
+        
+    }
+    .Getting-Started div div div {
+        max-width: 880px !important; 
+        margin: none !important;  
+    
+    }
+
 }
