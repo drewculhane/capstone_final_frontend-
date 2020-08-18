@@ -4,7 +4,7 @@ import './DashboardLayout.css'
 const DashboardLayout =(props) => {
     return (
              <header>
-      <nav className="navbar fixed-top navbar-expand-md navbar-light">
+      <nav className="navbar fixed-top navbar-expand-lg navbar-light">
         <a className="navbar-brand" >
           <img
             className="Logo"
