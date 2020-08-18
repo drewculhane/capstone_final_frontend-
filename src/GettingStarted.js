@@ -33,7 +33,7 @@ function GettingStarted() {
         </div> 
         <div className="post-spef-widthcont card-choices card text-white bg-dark mb-3" >
         <div className="card-header">
-            <h2> <span className="greenwrap">"Wisp Spirit</span> </h2> 
+            <h2> <span className="greenwrap">"Wisp Spirit" </span> </h2> 
         <div className="card-body">
           <h2> When you die you become a floating elf head, gaining 50% extra speed over other ghosts as you travel from the closest graveyard in the spirit world
                   to your corpse to resurrect. While this may not mean anything to you now,
@@ -75,28 +75,36 @@ function GettingStarted() {
         <h1 id="comment-thread-post" className="For-feed-header"> Questie: </h1>
         <div className="post-spef-widthcont card-choices card text-white bg-dark mb-3" >
         <div className="card-header">
-          <h2> Questie is a must-have add-on for WoW. You can download it from the link above. It shows you where your quest-givers and objectives are on the map. Here is the Folder path for drag and drop: </h2>
-          <h2> <span className="greenwrap"><a className="link-overide" href="https://www.curseforge.com/wow/addons/questie" target="_blank">  Download Link </a> </span></h2> 
+           <h2> <span className="greenwrap"> Questie </span></h2>
           <div className="card-body">
+        <h2> Questie is a must-have add-on for WoW. You can download it from the link below, and refer to the folder path example. Questie shows you where your quest-givers and objectives are on the map. </h2>
           </div> 
           </div> 
           </div> 
           <div className="post-spef-widthcont card-choices card text-white bg-dark mb-3" >
             <div className="card-header">
+            <h2> <span className="greenwrap"> Questie </span></h2>
+            <h2> <span className="greenwrap"><a className="link-overide" href="https://www.curseforge.com/wow/addons/questie" target="_blank">  Download Link </a> </span></h2> 
             <div className="card-body">
-          <p> <span className="greenwrap"> "World of Warcraft" -- "_classic_" -- "Interface" -- "AddOns" -- COPY QUESTIE IN HERE</span></p>
+          <p> <span className="greenwrap"> "World of Warcraft" </span></p>
+          <p> <span className="greenwrap">  "_classic_" </span></p>
+          <p> <span className="greenwrap">  "Interface" </span></p>
+          <p> <span className="greenwrap">  "AddOns" </span></p>
+          <p> <span className="greenwrap">  COPY   QUESTIE   HERE  </span></p>
           </div> 
           </div> 
           </div> 
           <div className="post-spef-widthcont card-choices card text-white bg-dark mb-3" >
           <div className="card-header">
+          <h2> <span className="greenwrap"> Questie </span></h2>
             <div className="card-body">
-         <p> <span className="greenwrap"> Make sure Questie, and all future AddOns are copied from a container which is it's immediate route. </span></p>
+         <p> <span className="greenwrap"> Make sure Questie, and all future AddOns are copied from a container which is it's immediate root. </span></p>
             </div> 
             </div> 
             </div> 
             <div className="post-spef-widthcont card-choices card text-white bg-dark mb-3" >
           <div className="card-header">
+          <h2> <span className="greenwrap"> Questie </span></h2>
             <div className="card-body">
           <p> <span className="greenwrap"> Sometimes downloaded files' roots come in an EXTRA container, so just extract them at the right level and 
           copy the true parent container into the AddOns folder, and you should be good! </span></p>
@@ -106,7 +114,9 @@ function GettingStarted() {
             <div className="post-spef-widthcont card-choices card text-white bg-dark mb-3" >
           <div className="card-header">
             <div className="card-body">
-          <p> <span className="greenwrap"> CORRECT CONTAINER DEPTH EXAMPLE : "QUESTIE |Folder|" ---- |CONTENTS: "Database", "embeds.xml", "Icons", "Libs", "Locale", etc.... |</span></p>
+          <p> <span className="greenwrap"> CORRECT CONTAINER DEPTH EXAMPLE : </span> </p>
+          <p>"QUESTIE |Folder|" </p>
+          <p> |FOLDER CONTENTS|: "Database", "embeds.xml", "Icons", "Libs", "Locale", etc....</p>
         </div>
         </div> 
         </div> 
@@ -123,14 +133,24 @@ function GettingStarted() {
         </div> 
         <div className="post-spef-widthcont card-choices card text-white bg-dark mb-3" >
         <div className="card-header">
+        <h2> <span className="greenwrap">Herbalism and Skinning </span></h2> 
         <div className="card-body">
         <h2> We recommend getting started on leveling your primary skills ASAP while you are progressing from 
-              levels 1-10. *** Please Note, Teldrassil is one of the best places to level apprentice Herbalism. It's a tree and it is filled with herbs. *** If you are planning on being a FERAL DPS or a TANK, we recommend 
+              levels 1-10. *** Please Note, Teldrassil is one of the best places to level apprentice Herbalism. It's a tree and it is filled with herbs. *** 
+              </h2>
+        </div>
+        </div>
+        </div> 
+        <div className="post-spef-widthcont card-choices card text-white bg-dark mb-3" >
+        <div className="card-header">
+        <h2> <span className="greenwrap">Herbalism and Skinning </span></h2> 
+        <div className="card-body">
+        <h2> If you are planning on being a FERAL DPS or a TANK, we recommend 
               getting Leatherworking as one of your two primary skills. That way you can make "Devilsaur Gauntlets", and "Devilsaur Leggings" which are Best in Slot later in the game. For a full list of Dolanaar trainers and NPCs/POIs, see the link below.
               </h2>
               <h2> <span className="greenwrap"><a className="link-overide"  href="https://wow.gamepedia.com/Dolanaar#Residents" target="_blank">  Dolanaar Residents </a> </span></h2> 
-        </div>
-        </div>
+        </div> 
+        </div> 
         </div> 
         </div> 
         </>
