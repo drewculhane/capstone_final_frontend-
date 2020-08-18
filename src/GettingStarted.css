@@ -8,12 +8,15 @@
 .Getting-Started div {
     min-width: 80vw !important; 
     margin: none !important; 
+    max-width: 880px !important; 
 }
 .Getting-Started div div {
     min-width: 80vw !important; 
     margin: none !important; 
+    max-width: 880px !important; 
 }
 .Getting-Started div div div {
     min-width: 80vw !important;
     margin: none !important;  
+    max-width: 880px !important; 
 }
