@@ -75,13 +75,43 @@ function GettingStarted() {
         <h1 id="comment-thread-post" className="For-feed-header"> Questie: </h1>
         <div className="post-spef-widthcont card-choices card text-white bg-dark mb-3" >
         <div className="card-header">
-            <h2> <span className="greenwrap"><a href="https://www.curseforge.com/wow/addons/questie" target="_blank">  Download Link </a> </span></h2> 
         <div className="card-body">
+        </div>
+        </div> 
+        </div> 
+        <div className="post-spef-widthcont card-choices card text-white bg-dark mb-3" >
+        <div className="card-header">
           <h2> Questie is a must-have add-on for WoW. You can download it from the link above. It shows you where your quest-givers and objectives are on the map. Here is the Folder path for drag and drop: </h2>
+          <h2> <span className="greenwrap"><a href="https://www.curseforge.com/wow/addons/questie" target="_blank">  Download Link </a> </span></h2> 
+          <div className="card-body">
+          </div> 
+          </div> 
+          </div> 
+          <div className="post-spef-widthcont card-choices card text-white bg-dark mb-3" >
+            <div className="card-header">
+            <div className="card-body">
           <p> <span className="greenwrap"> "World of Warcraft" -- "_classic_" -- "Interface" -- "AddOns" -- COPY QUESTIE IN HERE</span></p>
-          <p> <span className="greenwrap"> Make sure Questie, and all future AddOns are copied from a container which is it's immediate route. </span></p>
+          </div> 
+          </div> 
+          </div> 
+          <div className="post-spef-widthcont card-choices card text-white bg-dark mb-3" >
+          <div className="card-header">
+            <div className="card-body">
+         <p> <span className="greenwrap"> Make sure Questie, and all future AddOns are copied from a container which is it's immediate route. </span></p>
+            </div> 
+            </div> 
+            </div> 
+            <div className="post-spef-widthcont card-choices card text-white bg-dark mb-3" >
+          <div className="card-header">
+            <div className="card-body">
           <p> <span className="greenwrap"> Sometimes downloaded files' roots come in an EXTRA container, so just extract them at the right level and 
           copy the true parent container into the AddOns folder, and you should be good! </span></p>
+          </div> 
+            </div> 
+            </div> 
+            <div className="post-spef-widthcont card-choices card text-white bg-dark mb-3" >
+          <div className="card-header">
+            <div className="card-body">
           <p> <span className="greenwrap"> CORRECT CONTAINER DEPTH EXAMPLE : "QUESTIE |Folder|" ---- |CONTENTS: "Database", "embeds.xml", "Icons", "Libs", "Locale", etc.... |</span></p>
         </div>
         </div> 
