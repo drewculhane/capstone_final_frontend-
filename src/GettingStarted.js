@@ -6,7 +6,7 @@ function GettingStarted() {
     return (
         <>
         <DashboardLayout/> 
-        <div className="Component-styles-container">
+        <div className="Component-styles-container Getting-Started">
         <h1 id="comment-thread-post" className="For-feed-header"> Getting Started </h1>
         <div className="post-spef-widthcont card-choices card text-white bg-dark mb-3" >
         <div className="card-header">
@@ -69,6 +69,35 @@ function GettingStarted() {
         <div className="card-body">
           <h2>  This RP makes sense, since Night Elves literally live in a tree! This gives you +10 resistance points to nature attacks automatically. Convenient if you are fighting enemies with natural attacks. Maybe not as exciting as "Wisp Spirit" and "Shadowmeld", but useful nonetheless.
               </h2>
+        </div>
+        </div> 
+        </div> 
+        <h1 id="comment-thread-post" className="For-feed-header"> Questie: </h1>
+        <div className="post-spef-widthcont card-choices card text-white bg-dark mb-3" >
+        <div className="card-header">
+            <h2> <span className="greenwrap"><a href="https://www.curseforge.com/wow/addons/questie" target="_blank">  Download Link </a> </span></h2> 
+        <div className="card-body">
+          <h2> Questie is a must-have add-on for WoW. You can download it from the link above. It shows you where your quest-givers and objectives are on the map. Here is the Folder path for drag and drop: </h2>
+          <p> <span className="greenwrap"> "World of Warcraft" -- "_classic_" -- "Interface" -- "AddOns" -- COPY QUESTIE IN HERE</span></p>
+          <p> <span className="greenwrap"> Make sure Questie, and all future AddOns are copied from a container which is it's immediate route. </span></p>
+          <p> <span className="greenwrap"> Sometimes downloaded files' roots come in an EXTRA container, so just extract them at the right level and 
+          copy the true parent container into the AddOns folder, and you should be good! </span></p>
+          <p> <span className="greenwrap"> CORRECT CONTAINER DEPTH EXAMPLE : "QUESTIE |Folder|" ---- |CONTENTS: "Database", "embeds.xml", "Icons", "Libs", "Locale", etc.... |</span></p>
+        </div>
+        </div> 
+        </div> 
+        <h1 id="comment-thread-post" className="For-feed-header"> Professions: </h1>
+        <div className="post-spef-widthcont card-choices card text-white bg-dark mb-3" >
+        <div className="card-header">
+            <h2> <span className="greenwrap">Herbalism and Skinning </span></h2> 
+        <div className="card-body">
+          <h2>  It's pretty convenient to pick up Herbalism and/or Skinning when you come to Dolanaar in Teldrassil, alongside a myriad of other secondary and primary skills. You can only have two primary skills. 
+              The Herbalism trainer is in town, but the skinning trainer is a little further up the road towards Darnassus. If you want to buy a skinning knife ahead of time, 
+              talk to Narret Shadowgrove in Dolanaar. For a full list of Dolanaar trainers and NPCs/POIs, see the link below. We recommend getting started on leveling your primary skills ASAP while you are progressing from 
+              levels 1-10. *** Please Note, Teldrassil is one of the best places to level apprentice Herbalism. It's a tree and it is filled with herbs. *** If you are planning on being a FERAL DPS or a TANK, we recommend 
+              getting Leatherworking as one of your two primary skills. That way you can make "Devilsaur Gauntlets", and "Devilsaur Leggings" which are Best in Slot later in the game. 
+              </h2>
+              <h2> <span className="greenwrap"><a href="https://wow.gamepedia.com/Dolanaar#Residents" target="_blank">  Dolanaar Residents </a> </span></h2> 
         </div>
         </div> 
         </div> 
