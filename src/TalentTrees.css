@@ -1,9 +1,11 @@
 .Component-styles-container {
     margin-top: 30vh; 
+    display: flex; 
+    flex-direction: column; 
+    align-content: center;
+    justify-content: center; 
 }
 .talent-cont {
    width: 375px; 
-   display: flex; 
-   align-content: center; 
-   justify-content: center; 
+
 }
