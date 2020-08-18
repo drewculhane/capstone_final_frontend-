@@ -111,7 +111,12 @@
   .dropdown-item:hover {
     background-color: transparent; 
   }
-  
+  .dropdown-item {
+    font-size: 20px !important; 
+  }
+  .nav-link {
+    font-size: 20px !important; 
+  }
   
   @media only screen and (min-width: 722px) {
     
