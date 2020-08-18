@@ -22,16 +22,19 @@
 }
 @media only screen and (min-width: 880px) {
     .Getting-Started div {
+        min-width: 880px !important; 
         max-width: 880px !important; 
         margin: none !important; 
       
     }
     .Getting-Started div div {
+        min-width: 880px !important; 
         max-width: 880px !important; 
         margin: none !important; 
         
     }
     .Getting-Started div div div {
+        min-width: 880px !important; 
         max-width: 880px !important; 
         margin: none !important;  
     
