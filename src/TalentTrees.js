@@ -9,7 +9,7 @@ function TalentTrees() {
         <div className="Component-styles-container">
         <h1> Talent Trees </h1>
         <div className="talent-cont">
-        <a href="https://classic.wowhead.com/talent-calc/embed/druid/014005001-5050501303022151-05002"> Embedded. </a>
+        <a href="https://classic.wowhead.com/talent-calc/embed/druid"> Embedded. </a>
         </div>
         </div>
         </>
