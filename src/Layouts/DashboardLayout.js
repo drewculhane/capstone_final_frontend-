@@ -33,8 +33,8 @@ const DashboardLayout =(props) => {
               </Link> 
         </a>
         <a className="dropdown-item">
-              <Link to="/DruidIntel/ClassQuests" className="navLink">
-                  Class Quests
+              <Link to="/DruidIntel/ExternalResources" className="navLink">
+                  External Resources 
               </Link> 
         </a>
         <a className="dropdown-item">
