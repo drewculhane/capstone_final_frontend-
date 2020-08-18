@@ -5,6 +5,12 @@
     font-size: 20px !important; 
 }
 
+.Getting-Started div {
+    width: 80vw !important; 
+}
+.Getting-Started div div {
+    width: 80vw !important; 
+}
 .Getting-Started div div div {
     width: 80vw !important; 
 }
