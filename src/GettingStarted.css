@@ -1,6 +1,6 @@
 .Component-styles-container {
     margin-top: 30vh; 
 }
-.Getting-Started {
+.Getting-Started h1, h2 {
     font-size: 15px !important; 
 }
