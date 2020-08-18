@@ -1,3 +1,11 @@
 .Component-styles-container {
     margin-top: 30vh; 
 }
+.map-gif {
+    display: flex; 
+    max-width: 650px; 
+}
+.adv-guide {
+    min-width: 300px !important; 
+    max-width: 650px !important; 
+}
