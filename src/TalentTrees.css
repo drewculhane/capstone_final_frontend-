@@ -2,7 +2,8 @@
     margin-top: 30vh; 
 }
 .talent-cont {
-   width: 500px; 
-   margin-left: 20vw; 
-   margin-right: 20vw; 
+   width: 375px; 
+   display: flex; 
+   align-content: center; 
+   justify-content: center; 
 }
