@@ -27,6 +27,17 @@ function ClassQuests() {
             </ul>
         </div>
         </div> 
+        <div className="post-spef-widthcont card-choices card text-white bg-dark mb-3" >
+        <div className="card-header">
+        <h1> Have you ever just wanted to watch the sunset in Auberdine? </h1>
+        <h1> As a Night Elf, you're from the most beautiful part of Azeroth. </h1>
+        <div className="card-body">
+        <h1> ..yeah, we're not biased at all right? </h1>
+        <h1> Follow the link below to be whisked away...</h1> 
+        <h1> <span className="greenwrap"><a href="https://drewculhane.github.io/Auberdine-Animation-/" target="_blank">It's almost like you're there for real.</a> </span></h1> 
+        </div>
+        </div> 
+        </div>
         </div>
         </>
     )
