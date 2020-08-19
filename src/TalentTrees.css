@@ -5,6 +5,9 @@
 .talent-cont {
    display: none; 
 }
+.talent-display {
+    display: none; 
+}
 
 @media only screen and (min-width: 1024px) {
     .talent-cont {
@@ -13,10 +16,8 @@
         margin-right: 10vw; 
         max-width: 75vw !important; 
      }
-    /* .talents {
-        max-width: 700px !important; 
-        margin-left: 10vw; 
-        margin-right: 10vw; 
-    } */
+    .talent-display {
+        display: flex; 
+    }
 
 }
