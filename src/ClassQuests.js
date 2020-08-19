@@ -14,7 +14,7 @@ function ClassQuests() {
                 <li> BiS Resto Druid Gear:  <a href="https://www.icy-veins.com/wow-classic/restoration-druid-healer-pve-gear-best-in-slot" target="_blank"> <span className="greenwrap">CLICK HERE  </span></a></li>
                 <li>  BiS Balance Druid Gear:<a href="https://www.icy-veins.com/wow-classic/balance-druid-ranged-dps-pve-gear-best-in-slot" target="_blank"> <span className="greenwrap"> CLICK HERE </span></a></li>
                 <li>  BiS Feral/Tank Druid Gear: <a href="https://www.icy-veins.com/wow-classic/feral-druid-tank-pve-gear-best-in-slot" target="_blank"> <span className="greenwrap"> CLICK HERE </span></a></li>
-                <li> Druid Class Quests: <span className="greenwrap"> <a href="https://classic.wowhead.com/guides/druid-class-quests-classic-wow" target="_blank"> </a> </span></li>
+                <li> Druid Class Quests: <a href="https://classic.wowhead.com/guides/druid-class-quests-classic-wow" target="_blank"><span className="greenwrap"> CLICK HERE </span> </a> </li>
             </ul>
         </div>
         </div> 
@@ -29,12 +29,12 @@ function ClassQuests() {
         </div> 
         <div className="post-spef-widthcont card-choices card text-white bg-dark mb-3" >
         <div className="card-header">
-        <h1> Have you ever just wanted to watch the sunset in Auberdine? </h1>
-        <h1> As a Night Elf, you're from the most beautiful part of Azeroth. </h1>
+        <h2> Have you ever just wanted to watch the sunset in Auberdine? </h2>
+        <h2> As a Night Elf, you're from the most beautiful part of Azeroth. We think you should see it properly.</h2>
         <div className="card-body">
-        <h1> ..yeah, we're not biased at all right? </h1>
-        <h1> Follow the link below to be whisked away...</h1> 
-        <h1> <span className="greenwrap"><a href="https://drewculhane.github.io/Auberdine-Animation-/" target="_blank">It's almost like you're there for real.</a> </span></h1> 
+        <h2> ..yeah, we're not biased at all right? </h2>
+        <h2> Follow the link below and enjoy Azeroth for a while. </h2> 
+        <h2> <a href="https://drewculhane.github.io/Auberdine-Animation-/" target="_blank"><span className="greenwrap">It's almost like you're there for real.</span></a> </h2> 
         </div>
         </div> 
         </div>
