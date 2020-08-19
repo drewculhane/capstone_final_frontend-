@@ -5,7 +5,7 @@
 .talent-cont {
    display: none; 
 }
-.talent-display {
+.display-talent {
     display: none; 
 }
 
@@ -16,7 +16,7 @@
         margin-right: 10vw; 
         max-width: 75vw !important; 
      }
-    .talent-display {
+    .display-talent {
         display: flex; 
     }
 
