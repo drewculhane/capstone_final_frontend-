@@ -33,7 +33,7 @@ function ClassQuests() {
         <h2> As a Night Elf, you're from the most beautiful part of Azeroth. We think you should see it properly.</h2>
         <div className="card-body">
         <h2> ..yeah, we're not biased at all right? </h2>
-        <h2> Follow the link below and enjoy Azeroth for a while. </h2> 
+        <h2> Follow the link below and enjoy Auberdine for a while. </h2> 
         <h2> <a href="https://drewculhane.github.io/Auberdine-Animation-/" target="_blank"><span className="greenwrap">It's almost like you're there for real.</span></a> </h2> 
         </div>
         </div> 
