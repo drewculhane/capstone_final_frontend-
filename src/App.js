@@ -97,7 +97,7 @@ export default class App extends Component {
        <Route exact path={"/Dashboard/ProfileSettings/Edit"} render={props => (
          <ProfileSettingsEdit {...props} user={this.state.user} loggedInStatus={this.state.loggedInStatus} />
        )} /> 
-       <Route exact path={"/Dashboard/PostActivity"} component={PostActivity} />
+       {/* <Route exact path={"/Dashboard/PostActivity"} component={PostActivity} /> */}
       </Switch> 
       </BrowserRouter>
       </div>

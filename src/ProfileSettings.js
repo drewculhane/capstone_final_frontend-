@@ -30,6 +30,7 @@ function ProfileSettings(props) {
                     <>
                  <div className="card-header">
                  <a className="settings-margin link-overide" href="/Dashboard/ProfileSettings/Edit"> Edit Profile </a>
+                 <p> Welcome back, {userInfo.nickname ? <span> {userInfo.nickname} </span> : <span> {userInfo.email} </span>} </p>
                 <h3> Avatar: </h3>
                 {userInfo.avatar === null || "" ? 
                  <p> You haven't chosen an avatar yet.</p> : 

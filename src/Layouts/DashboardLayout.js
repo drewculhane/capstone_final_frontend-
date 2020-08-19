@@ -73,11 +73,11 @@ const DashboardLayout =(props) => {
                   Profile Settings 
               </Link>
             </a>
-        <a className="dropdown-item">
+        {/* <a className="dropdown-item">
               <Link to="/Dashboard/PostActivity" className="navLink">
                   Post Activity
               </Link> 
-        </a>
+        </a> */}
      </div>
           </li>
           <li class="nav-item">
