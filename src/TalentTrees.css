@@ -6,12 +6,12 @@
    display: none; 
 }
 
-@media only screen and (min-width: 720px) {
+@media only screen and (min-width: 1024px) {
     .talent-cont {
         display: inline-block; 
         margin-left: 10vw; 
         margin-right: 10vw; 
-        max-width: 80vw !important; 
+        max-width: 75vw !important; 
      }
     /* .talents {
         max-width: 700px !important; 

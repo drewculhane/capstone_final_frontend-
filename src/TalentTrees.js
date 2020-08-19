@@ -8,7 +8,7 @@ function TalentTrees() {
         <DashboardLayout/> 
         <div className="Component-styles-container Getting-Started">
         <h1 id="comment-thread-post" className="For-feed-header"> Talent Trees: </h1>
-        <h1 id="comment-thread-post" className="For-feed-header"> | NOT MOBILE ACCESSIBLE |</h1>
+        <h1 id="comment-thread-post" className="For-feed-header"> | ONLY LAPTOP ACCESSIBLE |</h1>
         <div className="talent-cont">
         <div className="post-spef-widthcont card-choices card text-white bg-dark mb-3" >
         <div className="card-header">
