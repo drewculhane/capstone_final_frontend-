@@ -14,7 +14,7 @@ function ClassQuests() {
                 <li> BiS Resto Druid Gear:  <a href="https://www.icy-veins.com/wow-classic/restoration-druid-healer-pve-gear-best-in-slot" target="_blank"> <span className="greenwrap">CLICK HERE  </span></a></li>
                 <li>  BiS Balance Druid Gear:<a href="https://www.icy-veins.com/wow-classic/balance-druid-ranged-dps-pve-gear-best-in-slot" target="_blank"> <span className="greenwrap"> CLICK HERE </span></a></li>
                 <li>  BiS Feral/Tank Druid Gear: <a href="https://www.icy-veins.com/wow-classic/feral-druid-tank-pve-gear-best-in-slot" target="_blank"> <span className="greenwrap"> CLICK HERE </span></a></li>
-                <li> Druid Class Quests: <a href="https://classic.wowhead.com/guides/druid-class-quests-classic-wow" target="_blank"><span className="greenwrap"> CLICK HERE </span> </a> </li>
+                <li> Druid Class Quests: <a className="greenwrap" href="https://classic.wowhead.com/guides/druid-class-quests-classic-wow" target="_blank"><span className="greenwrap"> CLICK HERE </span> </a> </li>
             </ul>
         </div>
         </div> 
