@@ -96,6 +96,8 @@ function Post(props) {
         <div class="card-header">
             <a href="/"> <span className="greenwrap">Please Log in to make a comment.</span></a>
         </div>
+        </div> 
+        </div>
     ); 
     
       else {
