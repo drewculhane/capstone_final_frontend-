@@ -14,7 +14,7 @@ export default class Home extends Component {
     }
     handleSuccessfulAuth(data) {
         this.props.handleLogin(data); 
-        this.props.history.push("/welcome")
+        this.props.history.push("/Dashboard/ProfileSettings")
     }
 
     handleLogoutClick() {
