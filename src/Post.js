@@ -184,7 +184,7 @@ function Post(props) {
       }
       return (
       <>
-<div class="comment-card-indent card text-white bg-success mb-3" >
+<div class="comment-card-indent card text-white bg-secondary mb-3" >
 <div class="card-header">
 <img className="feed-avatar" src={comment.user_avatar} />
 <div className="display-user-timestamp-cont">
@@ -227,7 +227,7 @@ function Post(props) {
           <div className="user-actions-ts">
           <p className="post-title-highlight">{post.title}</p>
           <div className="user-action-flex-cont">
-          { props.user.id === post.user_id ? <div onClick={updateDisplay}> Toggle Author Actions: </div> : <div> No Action Available </div> }
+          { props.user.id === post.user_id ? <div onClick={updateDisplay}> Toggle Author Actions: </div> : <div className="margin-action"> No Action Available </div> }
           { displayUsertools === false && props.user.id === post.user_id ? <div className="v">^</div> : <div div className="v">v</div> }
           </div>
           { displayUsertools === true && props.user.id === post.user_id ? <div> {editLinkPost}{deletePost} </div> : null }
@@ -242,7 +242,7 @@ function Post(props) {
         {commentsArray}
         <div>
         <h1 id="comment-thread-post" className="For-feed-header"> Post a Comment: </h1>
-        <div id="comment-form" className="card text-white bg-success mb-3" >
+        <div id="comment-form" className="card text-white bg-secondary mb-3" >
             <div className="card-header">
         {postCommentForm}
         </div> 
