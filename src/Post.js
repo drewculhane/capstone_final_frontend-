@@ -92,7 +92,9 @@ function Post(props) {
     if (props.loggedInStatus === "NOT_LOGGED_IN") 
     postCommentForm = (
         <div> 
-            <a href="/"> Please Log in to make a comment.</a>
+        <div class="card text-white bg-dark mb-3" >
+        <div class="card-header">
+            <a href="/"> <span className="greenwrap">Please Log in to make a comment.</span></a>
         </div>
     ); 
     
