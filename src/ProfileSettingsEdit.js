@@ -84,7 +84,11 @@ function ProfileSettingsEdit(props) {
     if (props.loggedInStatus === "NOT_LOGGED_IN") 
     userDataForm = (
         <div> 
-            <a href="/"> Please Log in to edit your dashboard. </a>
+            <div class="card text-white bg-dark mb-3" >
+                 <div class="card-header">
+            <a href="/"> <span className="greenwrap">Please Log in to edit your dashboard. </span></a>
+            </div>
+            </div>
         </div>
     ); 
       else {

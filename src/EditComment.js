@@ -50,12 +50,16 @@ function EditComment(props) {
     if (props.loggedInStatus != "LOGGED_IN" || props.user.id !== comment.user_id) {
         commentEdit = (
             <div> 
+                 <div class="card text-white bg-dark mb-3" >
+                 <div class="card-header">
                 <p> 404: Sorry, we have no record of this comment belonging to you. We suspect murlocs are behind it. 
                     <br /> 
                     Your session may have also expired. 
                     Try logging in to edit a comment from your Dashboard's post history, or from the forum feed. 
                 </p>
-                <a href="/" >  Login to portal.  </a>
+                <a href="/" > <span className="greenwrap"> Login to portal. </span> </a>
+                </div> 
+                </div> 
             </div>
         )
          } else if (props.user && props.user.id == comment.user_id) {

@@ -52,12 +52,16 @@ function EditPost(props) {
     if (props.loggedInStatus != "LOGGED_IN" || props.user.id !== post.user_id) {
         postEdit = (
             <div> 
+                 <div class="card text-white bg-dark mb-3" >
+                 <div class="card-header">
                 <p> 404: Sorry, we have no record of this post belonging to you. We suspect murlocs are behind it. 
                     <br /> 
                     Your session may have expired. 
                     Try logging in to edit a post from your Dashboard's post history, or from the forum feed. 
                 </p>
-                <a href="/" >  Login to portal.  </a>
+                <a href="/" > <span className="greenwrap"> Login to portal. </span> </a>
+                </div>
+                </div>
             </div>
         )
          } else if (props.user && props.user.id == post.user_id) {
