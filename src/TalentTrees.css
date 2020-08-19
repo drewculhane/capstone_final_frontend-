@@ -11,8 +11,8 @@
         display: inline-block; 
         margin-left: 10vw; 
         margin-right: 10vw; 
-        min-width: 680px !important; 
-        max-width: 680px !important; 
+        min-width: 800px !important; 
+        max-width: 800px !important; 
      }
     /* .talents {
         max-width: 700px !important; 
