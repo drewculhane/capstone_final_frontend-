@@ -16,6 +16,11 @@
         margin-right: 10vw; 
         max-width: 75vw !important; 
      }
+     .talents {
+        margin-left: 10vw; 
+        margin-right: 10vw; 
+        max-width: 75vw !important; 
+     }
     .display-talent {
         display: flex; 
     }
